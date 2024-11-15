@@ -12,7 +12,7 @@ public class Cheers {
                 }
             System.out.println("What does that spell?");
             for (int j = 0; j < number; j++){
-                System.out.println(word1 + "!!!");
+                System.out.println(word1 + "!!! ");
             }  
         }
 }
