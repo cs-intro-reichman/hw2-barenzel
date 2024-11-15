@@ -18,8 +18,8 @@ public  class  TestRandom {
 		System.out.println("> 0.5: " + bigger + " times");
 		System.out.println("<= 0.5: " + smallOrEqual + " times");
 
-		double bigger1 = bigger + 0;
-		double smallOrEqual1 = smallOrEqual + 0;
+		double bigger1 = (double) bigger;
+		double smallOrEqual1 = (double) smallOrEqual;
 	    if ((bigger1 == 0) || (smallOrEqual1 == 0)) {
 			System.out.println("");
 		} else if (bigger1 < smallOrEqual1) {
