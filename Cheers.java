@@ -7,12 +7,12 @@ public class Cheers {
             String letters = "AEFHILMNORSX";
             for (int i = 0; i < word1.length(); i++){
                 char character = word1.charAt(i);
-                String aOrAn = (letters.indexOf(character) != -1) ? "an" : "a";
+                String aOrAn = (letters.indexOf(character) != -1) ? "an" : "a ";
                 System.out.println("Give me " + aOrAn + " " + character + ": " + character + "!");
                 }
             System.out.println("What does that spell?");
             for (int j = 0; j < number; j++){
-                System.out.println(word1 + "!!! ");
+                System.out.println(word1 + "!!!");
             }  
         }
 }
