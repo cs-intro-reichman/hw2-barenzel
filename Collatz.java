@@ -8,7 +8,7 @@ public class Collatz {
 		if (verbose) {
 		    for (int n = 1; n <= N; n++){
 			    int num = n;
-	         	System.out.print(num + ", ");	
+	         	System.out.print(num + " ");	
 	        	for (int i = 1; n >= 1; i++)  {
 		         	if (num % 2 == 0) {
 			     	num /= 2;	
@@ -16,7 +16,7 @@ public class Collatz {
 				    num = (num * 3) + 1;
 			    }
 			    if (num != 1) {
-		            System.out.print(num + ", ");	
+		            System.out.print(num + " ");	
 		       	} else {
 				    System.out.println(num + " (" + (i + 1) + ")");
 				    break;
